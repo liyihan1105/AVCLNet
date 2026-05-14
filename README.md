@@ -50,16 +50,9 @@ Sample Collection:
 ## Training
 Configure the sample paths in `models/my_dataset.py`.
 
-Execute the training script:
+Execute the training script: Bash `python train.py`
 
-Bash
-`python train.py`
-Tracking & Evaluation
-Multi-Speaker Tracking:
-Perform tracking on the test sequences by running:
-
-Bash
-`python tracking/test.py`
+Perform tracking on the test sequences by running: Bash `python tracking/test.py`
 
 * Audio Localization (AO):
 
