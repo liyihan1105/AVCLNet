@@ -1,4 +1,4 @@
-# GLDTracker
+# AVCLNet
 AVCLNet: Multimodal Multi-Speaker Tracking Network Using Audio-Visual Contrastive Learning
 
 ## Requirements
