@@ -43,7 +43,7 @@ Audio Preprocessing:
 
 Sample Collection:
 
-tools/prepareSample.py & tools/prepareAuSample.py: Align image frames with corresponding audio samples to create pair-wise data for contrastive learning.
+`tools/prepareSample.py` & `tools/prepareAuSample.py`: Align image frames with corresponding audio samples to create pair-wise data for contrastive learning.
 
 
 Descriptions
