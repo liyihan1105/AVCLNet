@@ -46,9 +46,9 @@ Sample Collection:
 `tools/prepareSample.py` & `tools/prepareAuSample.py`: Align image frames with corresponding audio samples to create pair-wise data for contrastive learning.
 
 
-Descriptions
-Training
-Configure the sample paths and GCF (Global Coherence Field) paths in `models/my_dataset.py`.
+## Descriptions
+## Training
+Configure the sample paths in `models/my_dataset.py`.
 
 Execute the training script:
 
@@ -60,17 +60,16 @@ Perform tracking on the test sequences by running:
 
 Bash
 `python tracking/test.py`
-Audio Localization (AO):
-Uses the stGCF method.
+
+* Audio Localization (AO):
 
 Algorithm: `python GCF/GCF_extract_stGCF.py`
 
 Evaluation: `python GCF/stGCF.py`
 
-Visual Localization (VO):
-Uses a pre-trained SiamFC (Siamese Network) for feature extraction.
-
-Implementation based on: Fully-Convolutional Siamese Networks for Object Tracking.
+* Visual Localization (VO):
+  
+Algorithm: Uses a pre-trained SiamFC for feature extraction.
 
 Evaluation: `python visualnet/VO.py`
 
