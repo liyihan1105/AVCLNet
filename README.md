@@ -70,15 +70,6 @@ Evaluation: `python visualnet/VO.py`
 ## Citation
 If you find this work useful for your research, please cite our paper:
 
-Paper Title: AVCLNet: Multimodal Multispeaker Tracking Network Using Audio-Visual Contrastive Learning
-
-Authors: Yihan Li, Yidi Li, Zhenhuan Xu, Hao Guo, Mengyuan Liu, Weiwei Wan
-
-Journal: CAAI Transactions on Intelligence Technology
-
-DOI: 10.1049/cit2.70092
-
-## BibTeX
 @article{li2026avclnet,
   title={AVCLNet: Multimodal Multispeaker Tracking Network Using Audio-Visual Contrastive Learning},
   author={Li, Yihan and Li, Yidi and Xu, Zhenhuan and Guo, Hao and Liu, Mengyuan and Wan, Weiwei},
@@ -86,7 +77,7 @@ DOI: 10.1049/cit2.70092
   volume={11},
   number={1},
   pages={238--255},
-  year={2026},
+  year={2025},
   publisher={Wiley Online Library},
   doi={10.1049/cit2.70092}
 }
