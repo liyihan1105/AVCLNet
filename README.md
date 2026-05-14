@@ -48,7 +48,7 @@ Sample Collection:
 
 ## Descriptions
 ## Training
-Configure the sample paths in `models/my_dataset.py`.
+Configure the sample paths: `models/my_dataset.py`.
 
 Execute the training script: Bash `python train.py`
 
